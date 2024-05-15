@@ -79,11 +79,9 @@ sudo systemctl daemon-reload
 sudo systemctl enable initia.service
 ```
 
-## İnitalize işlemleri
+## İnitalize işlemleri - Hepsini toplu girebilirsiniz
 
 ```console
-
-# Hepsini toplu girebilirsiniz
 
 initiad config set client chain-id initiation-1
 initiad config set client keyring-backend test
